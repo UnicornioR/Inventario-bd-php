@@ -1,0 +1,20 @@
+{
+    "name": "desarrollo/inventario-php",
+    "description": "Demo Inventario",
+    "type": "project",
+    "authors": [
+        {
+            "name": "trainingLeader",
+            "email": "131613955+trainingLeader@users.noreply.github.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "./config",
+            "Models\\": "./models",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
